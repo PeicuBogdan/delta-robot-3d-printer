@@ -1,0 +1,2095 @@
+{
+  "ok": true,
+  "app": "Licenta Data Logger",
+  "timestamp_iso": "2026-06-18 02:11:55",
+  "moonraker": "http://127.0.0.1:7125",
+  "objects": {
+    "print_stats": {
+      "filename": "Stanford_Bunny_0.25mm_PETG_Generic Klipper Printer_6h22m.gcode",
+      "total_duration": 1.1994047030002548,
+      "print_duration": 0.0,
+      "filament_used": 0.0,
+      "state": "printing",
+      "message": "",
+      "info": {
+        "total_layer": null,
+        "current_layer": null
+      }
+    },
+    "display_status": {
+      "progress": 0.0,
+      "message": null
+    },
+    "virtual_sdcard": {
+      "file_path": "/home/bogdan/printer_data/gcodes/Stanford_Bunny_0.25mm_PETG_Generic Klipper Printer_6h22m.gcode",
+      "progress": 0.0029594366177735725,
+      "is_active": true,
+      "file_position": 46296,
+      "file_size": 15643518
+    },
+    "pause_resume": {
+      "is_paused": false
+    },
+    "idle_timeout": {
+      "state": "Printing",
+      "printing_time": 1.1792359800001577,
+      "idle_timeout": 1800.0
+    },
+    "toolhead": {
+      "homed_axes": "xyz",
+      "axis_minimum": [
+        -210.0,
+        -210.0,
+        -5.0,
+        0
+      ],
+      "axis_maximum": [
+        210.0,
+        210.0,
+        236.051043,
+        0
+      ],
+      "print_time": 12554.806760511541,
+      "stalls": 0,
+      "estimated_print_time": 12554.62272123654,
+      "extruder": "extruder",
+      "position": [
+        1.399941061701611,
+        0.22970977604683185,
+        240.00333748074587,
+        4.7
+      ],
+      "max_velocity": 200.0,
+      "max_accel": 900.0,
+      "minimum_cruise_ratio": 0.0,
+      "square_corner_velocity": 8.0,
+      "extra_axes": {
+        "extruder": 3
+      }
+    },
+    "gcode_move": {
+      "speed_factor": 1.0,
+      "speed": 4000.0000000000005,
+      "extrude_factor": 1.0,
+      "absolute_coordinates": true,
+      "absolute_extrude": true,
+      "homing_origin": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "position": [
+        1.399941061701611,
+        0.22970977604683185,
+        223.79749085154984,
+        4.7
+      ],
+      "gcode_position": [
+        1.399941061701611,
+        0.22970977604683185,
+        223.79749085154984,
+        -3.0
+      ],
+      "axis_map": {
+        "X": 0,
+        "Y": 1,
+        "Z": 2,
+        "E": 3
+      }
+    },
+    "motion_report": {
+      "live_position": [
+        1.399941061701611,
+        0.22970977604683185,
+        232.82392660573856,
+        4.699999999999999
+      ],
+      "live_velocity": 15.0,
+      "live_extruder_velocity": -3.552713678800501e-15,
+      "steppers": [
+        "extruder",
+        "stepper_a",
+        "stepper_b",
+        "stepper_c"
+      ],
+      "trapq": [
+        "extruder",
+        "toolhead"
+      ]
+    },
+    "extruder": {
+      "temperature": 138.54,
+      "target": 150.0,
+      "power": 1.0,
+      "can_extrude": false,
+      "pressure_advance": 0.02,
+      "smooth_time": 0.08,
+      "motion_queue": null
+    },
+    "heater_bed": {
+      "temperature": 73.08,
+      "target": 80.0,
+      "power": 1.0
+    },
+    "fan": {
+      "speed": 0.0,
+      "rpm": null
+    },
+    "bed_mesh": {
+      "profile_name": "default",
+      "mesh_min": [
+        -79.98,
+        -79.98
+      ],
+      "mesh_max": [
+        79.98,
+        79.97999999999999
+      ],
+      "probed_matrix": [
+        [
+          -0.315699,
+          -0.315699,
+          -0.315699,
+          -0.315699,
+          -0.315699,
+          -0.315699,
+          -0.315699
+        ],
+        [
+          0.01948,
+          0.01948,
+          -0.077071,
+          -0.184851,
+          -0.166807,
+          -0.280733,
+          -0.280733
+        ],
+        [
+          0.102172,
+          0.102172,
+          0.010512,
+          -0.093907,
+          -0.101969,
+          -0.144375,
+          -0.144375
+        ],
+        [
+          0.338908,
+          0.218503,
+          0.25263,
+          0.208981,
+          0.170928,
+          0.155116,
+          0.034467
+        ],
+        [
+          0.171379,
+          0.171379,
+          0.00465,
+          -0.002702,
+          -0.081401,
+          0.008686,
+          0.008686
+        ],
+        [
+          0.352388,
+          0.352388,
+          0.229308,
+          0.107696,
+          0.085788,
+          0.098279,
+          0.098279
+        ],
+        [
+          -0.21317,
+          -0.21317,
+          -0.21317,
+          -0.21317,
+          -0.21317,
+          -0.21317,
+          -0.21317
+        ]
+      ],
+      "mesh_matrix": [
+        [
+          -0.315699,
+          -0.315699,
+          -0.315699,
+          -0.315699,
+          -0.315699,
+          -0.315699,
+          -0.315699,
+          -0.315699,
+          -0.315699,
+          -0.315699,
+          -0.315699,
+          -0.315699,
+          -0.315699,
+          -0.315699,
+          -0.315699,
+          -0.315699,
+          -0.315699,
+          -0.315699,
+          -0.315699
+        ],
+        [
+          -0.22506,
+          -0.224667,
+          -0.224274,
+          -0.22506,
+          -0.231894,
+          -0.243446,
+          -0.251595,
+          -0.26057,
+          -0.273626,
+          -0.281184,
+          -0.280121,
+          -0.276795,
+          -0.275852,
+          -0.284542,
+          -0.299209,
+          -0.308136,
+          -0.309092,
+          -0.308614,
+          -0.308136
+        ],
+        [
+          -0.074834,
+          -0.073794,
+          -0.072753,
+          -0.074834,
+          -0.092923,
+          -0.123497,
+          -0.145068,
+          -0.168825,
+          -0.203388,
+          -0.223408,
+          -0.22067,
+          -0.211985,
+          -0.209536,
+          -0.232372,
+          -0.270904,
+          -0.294357,
+          -0.29687,
+          -0.295613,
+          -0.294357
+        ],
+        [
+          0.01948,
+          0.02091,
+          0.022341,
+          0.01948,
+          -0.005385,
+          -0.047415,
+          -0.077071,
+          -0.109739,
+          -0.157276,
+          -0.184851,
+          -0.181411,
+          -0.169974,
+          -0.166807,
+          -0.197497,
+          -0.249242,
+          -0.280733,
+          -0.284109,
+          -0.282421,
+          -0.280733
+        ],
+        [
+          0.048568,
+          0.050537,
+          0.052824,
+          0.050352,
+          0.024659,
+          -0.01888,
+          -0.049583,
+          -0.083129,
+          -0.131959,
+          -0.160536,
+          -0.159117,
+          -0.150658,
+          -0.148668,
+          -0.175228,
+          -0.219754,
+          -0.246762,
+          -0.249178,
+          -0.246917,
+          -0.244974
+        ],
+        [
+          0.077459,
+          0.079891,
+          0.082958,
+          0.081027,
+          0.055841,
+          0.013046,
+          -0.017131,
+          -0.049845,
+          -0.097528,
+          -0.125868,
+          -0.128067,
+          -0.125388,
+          -0.125619,
+          -0.143338,
+          -0.172532,
+          -0.190103,
+          -0.191034,
+          -0.188463,
+          -0.186528
+        ],
+        [
+          0.102172,
+          0.10353,
+          0.104888,
+          0.102172,
+          0.078597,
+          0.038728,
+          0.010512,
+          -0.020703,
+          -0.066408,
+          -0.093907,
+          -0.098582,
+          -0.10005,
+          -0.101969,
+          -0.11383,
+          -0.132872,
+          -0.144375,
+          -0.145631,
+          -0.145003,
+          -0.144375
+        ],
+        [
+          0.171987,
+          0.163255,
+          0.148339,
+          0.137204,
+          0.122662,
+          0.100055,
+          0.083139,
+          0.057607,
+          0.018798,
+          -0.005063,
+          -0.011673,
+          -0.017289,
+          -0.021516,
+          -0.030961,
+          -0.04582,
+          -0.056083,
+          -0.06666,
+          -0.081896,
+          -0.090937
+        ],
+        [
+          0.280214,
+          0.255196,
+          0.214006,
+          0.189241,
+          0.18901,
+          0.193831,
+          0.194917,
+          0.178706,
+          0.151339,
+          0.133587,
+          0.12419,
+          0.112361,
+          0.104571,
+          0.098161,
+          0.088564,
+          0.079392,
+          0.053662,
+          0.012846,
+          -0.011765
+        ],
+        [
+          0.338908,
+          0.305403,
+          0.250492,
+          0.218503,
+          0.224935,
+          0.242786,
+          0.25263,
+          0.242242,
+          0.222577,
+          0.208981,
+          0.197493,
+          0.181179,
+          0.170928,
+          0.167254,
+          0.162461,
+          0.155116,
+          0.121581,
+          0.0673,
+          0.034467
+        ],
+        [
+          0.297325,
+          0.272657,
+          0.231815,
+          0.206353,
+          0.199215,
+          0.192948,
+          0.188511,
+          0.180457,
+          0.167827,
+          0.158303,
+          0.143227,
+          0.12044,
+          0.10738,
+          0.111374,
+          0.120324,
+          0.12253,
+          0.097995,
+          0.056581,
+          0.031373
+        ],
+        [
+          0.215438,
+          0.207551,
+          0.19348,
+          0.180655,
+          0.149365,
+          0.099868,
+          0.069545,
+          0.063719,
+          0.060517,
+          0.056531,
+          0.036102,
+          0.003862,
+          -0.013155,
+          0.00277,
+          0.033127,
+          0.050601,
+          0.042937,
+          0.026244,
+          0.015747
+        ],
+        [
+          0.171379,
+          0.173849,
+          0.176319,
+          0.171379,
+          0.125792,
+          0.050564,
+          0.00465,
+          -0.001139,
+          -0.000825,
+          -0.002702,
+          -0.025824,
+          -0.06261,
+          -0.081401,
+          -0.059042,
+          -0.01717,
+          0.008686,
+          0.011355,
+          0.010021,
+          0.008686
+        ],
+        [
+          0.224404,
+          0.227789,
+          0.231809,
+          0.227971,
+          0.184112,
+          0.111199,
+          0.065431,
+          0.050776,
+          0.036341,
+          0.026037,
+          0.006078,
+          -0.023625,
+          -0.038626,
+          -0.020823,
+          0.01268,
+          0.033517,
+          0.036634,
+          0.03718,
+          0.037091
+        ],
+        [
+          0.317053,
+          0.319641,
+          0.322546,
+          0.318837,
+          0.281446,
+          0.218791,
+          0.177172,
+          0.14796,
+          0.108447,
+          0.08381,
+          0.069901,
+          0.053258,
+          0.045086,
+          0.053695,
+          0.070372,
+          0.080783,
+          0.08233,
+          0.082609,
+          0.08257
+        ],
+        [
+          0.352388,
+          0.354211,
+          0.356035,
+          0.352388,
+          0.320457,
+          0.266644,
+          0.229308,
+          0.192655,
+          0.139852,
+          0.107696,
+          0.097903,
+          0.089621,
+          0.085788,
+          0.088562,
+          0.094531,
+          0.098279,
+          0.098649,
+          0.098464,
+          0.098279
+        ],
+        [
+          0.202746,
+          0.204051,
+          0.205355,
+          0.202746,
+          0.179971,
+          0.141542,
+          0.114693,
+          0.087171,
+          0.047266,
+          0.023026,
+          0.016312,
+          0.011144,
+          0.008805,
+          0.010239,
+          0.013508,
+          0.015574,
+          0.015774,
+          0.015674,
+          0.015574
+        ],
+        [
+          -0.055484,
+          -0.054993,
+          -0.054503,
+          -0.055484,
+          -0.064033,
+          -0.078464,
+          -0.08857,
+          -0.099073,
+          -0.114332,
+          -0.123593,
+          -0.12608,
+          -0.127928,
+          -0.128756,
+          -0.128286,
+          -0.127182,
+          -0.126483,
+          -0.126415,
+          -0.126449,
+          -0.126483
+        ],
+        [
+          -0.21317,
+          -0.21317,
+          -0.21317,
+          -0.21317,
+          -0.21317,
+          -0.21317,
+          -0.21317,
+          -0.21317,
+          -0.21317,
+          -0.21317,
+          -0.21317,
+          -0.21317,
+          -0.21317,
+          -0.21317,
+          -0.21317,
+          -0.21317,
+          -0.21317,
+          -0.21317,
+          -0.21317
+        ]
+      ],
+      "profiles": {
+        "default": {
+          "points": [
+            [
+              -0.315699,
+              -0.315699,
+              -0.315699,
+              -0.315699,
+              -0.315699,
+              -0.315699,
+              -0.315699
+            ],
+            [
+              0.01948,
+              0.01948,
+              -0.077071,
+              -0.184851,
+              -0.166807,
+              -0.280733,
+              -0.280733
+            ],
+            [
+              0.102172,
+              0.102172,
+              0.010512,
+              -0.093907,
+              -0.101969,
+              -0.144375,
+              -0.144375
+            ],
+            [
+              0.338908,
+              0.218503,
+              0.25263,
+              0.208981,
+              0.170928,
+              0.155116,
+              0.034467
+            ],
+            [
+              0.171379,
+              0.171379,
+              0.00465,
+              -0.002702,
+              -0.081401,
+              0.008686,
+              0.008686
+            ],
+            [
+              0.352388,
+              0.352388,
+              0.229308,
+              0.107696,
+              0.085788,
+              0.098279,
+              0.098279
+            ],
+            [
+              -0.21317,
+              -0.21317,
+              -0.21317,
+              -0.21317,
+              -0.21317,
+              -0.21317,
+              -0.21317
+            ]
+          ],
+          "mesh_params": {
+            "min_x": -79.98,
+            "max_x": 79.98,
+            "min_y": -79.98,
+            "max_y": 79.97999999999999,
+            "x_count": 7,
+            "y_count": 7,
+            "mesh_x_pps": 2,
+            "mesh_y_pps": 2,
+            "algo": "bicubic",
+            "tension": 0.2
+          }
+        }
+      }
+    },
+    "configfile": {
+      "config": {
+        "virtual_sdcard": {
+          "path": "~/printer_data/gcodes",
+          "on_error_gcode": "CANCEL_PRINT"
+        },
+        "pause_resume": {},
+        "display_status": {},
+        "respond": {},
+        "gcode_macro CANCEL_PRINT": {
+          "description": "Cancel sigur - park la home, motoare ON",
+          "rename_existing": "CANCEL_PRINT_BASE",
+          "gcode": "\nSET_GCODE_OFFSET Z=0\nM104 S0\nM140 S0\nM107\n\nG91\nG1 E-3 F1800\nG90\n\n{% set current_z = printer.toolhead.position.z %}\n{% if current_z < 180 %}\nG91\nG1 Z20 F1500\nG90\n{% endif %}\n\nG1 X0 Y0 F4000\nG28\n\n\nSET_GCODE_VARIABLE MACRO=_PAUSE_STATE VARIABLE=filament_changed VALUE=0\n\nSET_GCODE_VARIABLE MACRO=PRINTER_STATE VARIABLE=print_mode VALUE='\"IDLE\"'\n\nCANCEL_PRINT_BASE\nRESPOND TYPE=command MSG=\"Print anulat. Cap parcat la home.\""
+        },
+        "gcode_macro PAUSE": {
+          "description": "Pause sigur cu pastrare temp",
+          "rename_existing": "PAUSE_BASE",
+          "gcode": "\nSAVE_GCODE_STATE NAME=M600_state\nPAUSE_BASE\n{% set current_z = printer.toolhead.position.z %}\n\n\n{% if current_z < 180 %}\nG91\nG1 Z20 F1500\nG90\n{% else %}\nG1 Z{[current_z + 5, 200]|min} F1200\n{% endif %}\n\n\nG1 X0 Y-80 F6000\n\n\nM104 S175\n\n\n\nSET_GCODE_VARIABLE MACRO=PRINTER_STATE VARIABLE=print_mode VALUE='\"PAUSED\"'\nRESPOND TYPE=command MSG=\"Pauza activa. Hotend la 175C, bed mentinut.\""
+        },
+        "gcode_macro RESUME": {
+          "description": "Resume smart - load filament doar daca era M600",
+          "rename_existing": "RESUME_BASE",
+          "variable_last_extruder_temp": "{'restore': False, 'temp': 0}",
+          "variable_restore_idle_timeout": "0",
+          "variable_idle_state": "False",
+          "gcode": "\n{% set is_change = printer[\"gcode_macro _PAUSE_STATE\"].filament_changed %}\n{% set saved_temp = printer.save_variables.variables.last_extruder_temp|default(215)|float %}\n\n\nM109 S{saved_temp}\n\n{% if is_change == 1 %}\n\n{% set LOAD = params.LOAD|default(800)|float %}\n\nG91\nG1 E{LOAD} F800\nG90\n\n\nG91\nG1 E50 F100\nG4 P2000\nG1 E-3 F2400\nG90\n\n\nG91\nG1 Z2 F600\nG90\nG1 X20 Y-80 F8000\n\n\nSET_GCODE_VARIABLE MACRO=_PAUSE_STATE VARIABLE=filament_changed VALUE=0\nRESPOND TYPE=command MSG=\"Filament nou incarcat, continui print.\"\n{% else %}\n\nG91\nG1 E1 F180\nG90\nRESPOND TYPE=command MSG=\"Resume print.\"\n{% endif %}\n\n\nSET_GCODE_VARIABLE MACRO=PRINTER_STATE VARIABLE=print_mode VALUE='\"PRINTING\"'\n\n\nRESTORE_GCODE_STATE NAME=M600_state MOVE=1 MOVE_SPEED=50\nRESUME_BASE"
+        },
+        "gcode_macro SET_PAUSE_NEXT_LAYER": {
+          "description": "Enable a pause if the next layer is reached",
+          "gcode": "\n{% set pause_next_layer = printer['gcode_macro SET_PRINT_STATS_INFO'].pause_next_layer %}\n{% set ENABLE = params.ENABLE|default(1)|int != 0 %}\n{% set MACRO = params.MACRO|default(pause_next_layer.call, True) %}\nSET_GCODE_VARIABLE MACRO=SET_PRINT_STATS_INFO VARIABLE=pause_next_layer VALUE=\"{{ 'enable': ENABLE, 'call': MACRO }}\""
+        },
+        "gcode_macro SET_PAUSE_AT_LAYER": {
+          "description": "Enable/disable a pause if a given layer number is reached",
+          "gcode": "\n{% set pause_at_layer = printer['gcode_macro SET_PRINT_STATS_INFO'].pause_at_layer %}\n{% set ENABLE = params.ENABLE|int != 0 if params.ENABLE is defined\nelse params.LAYER is defined %}\n{% set LAYER = params.LAYER|default(pause_at_layer.layer)|int %}\n{% set MACRO = params.MACRO|default(pause_at_layer.call, True) %}\nSET_GCODE_VARIABLE MACRO=SET_PRINT_STATS_INFO VARIABLE=pause_at_layer VALUE=\"{{ 'enable': ENABLE, 'layer': LAYER, 'call': MACRO }}\""
+        },
+        "gcode_macro SET_PRINT_STATS_INFO": {
+          "rename_existing": "SET_PRINT_STATS_INFO_BASE",
+          "description": "Overwrite, to get pause_next_layer and pause_at_layer feature",
+          "variable_pause_next_layer": "{ 'enable': False, 'call': \"PAUSE\" }",
+          "variable_pause_at_layer": "{ 'enable': False, 'layer': 0, 'call': \"PAUSE\" }",
+          "gcode": "\n{% if pause_next_layer.enable %}\nRESPOND TYPE=echo MSG='{\"%s, forced by pause_next_layer\" % pause_next_layer.call}'\n{pause_next_layer.call}\nSET_PAUSE_NEXT_LAYER ENABLE=0\n{% elif pause_at_layer.enable and params.CURRENT_LAYER is defined and params.CURRENT_LAYER|int == pause_at_layer.layer %}\nRESPOND TYPE=echo MSG='{\"%s, forced by pause_at_layer [%d]\" % (pause_at_layer.call, pause_at_layer.layer)}'\n{pause_at_layer.call}\nSET_PAUSE_AT_LAYER ENABLE=0\n{% endif %}\nSET_PRINT_STATS_INFO_BASE {rawparams}"
+        },
+        "gcode_macro _TOOLHEAD_PARK_PAUSE_CANCEL": {
+          "description": "Helper: park toolhead used in PAUSE and CANCEL_PRINT",
+          "gcode": "\n\n{% set client = printer['gcode_macro _CLIENT_VARIABLE']|default({}) %}\n{% set velocity = printer.configfile.settings.pause_resume.recover_velocity %}\n{% set use_custom     = client.use_custom_pos|default(false)|lower == 'true' %}\n{% set custom_park_x  = client.custom_park_x|default(0.0) %}\n{% set custom_park_y  = client.custom_park_y|default(0.0) %}\n{% set park_dz        = client.custom_park_dz|default(2.0)|abs %}\n{% set sp_hop         = client.speed_hop|default(15) * 60 %}\n{% set sp_move        = client.speed_move|default(velocity) * 60 %}\n\n{% set origin    = printer.gcode_move.homing_origin %}\n{% set act       = printer.gcode_move.gcode_position %}\n{% set max       = printer.toolhead.axis_maximum %}\n{% set cone      = printer.toolhead.cone_start_z|default(max.z) %}\n{% set round_bed = True if printer.configfile.settings.printer.kinematics is in ['delta','polar','rotary_delta','winch']\nelse False %}\n\n{% set z_min = params.Z_MIN|default(0)|float %}\n{% set z_park = [[(act.z + park_dz), z_min]|max, (max.z - origin.z)]|min %}\n{% set x_park = params.X       if params.X is defined\nelse custom_park_x  if use_custom\nelse 0.0            if round_bed\nelse (max.x - 5.0) %}\n{% set y_park = params.Y       if params.Y is defined\nelse custom_park_y  if use_custom\nelse (max.y - 5.0)  if round_bed and z_park < cone\nelse 0.0            if round_bed\nelse (max.y - 5.0) %}\n\n_CLIENT_RETRACT\n{% if \"xyz\" in printer.toolhead.homed_axes %}\nG90\nG1 Z{z_park} F{sp_hop}\nG1 X{x_park} Y{y_park} F{sp_move}\n{% if not printer.gcode_move.absolute_coordinates %} G91 {% endif %}\n{% else %}\nRESPOND TYPE=echo MSG='Printer not homed'\n{% endif %}"
+        },
+        "gcode_macro _CLIENT_EXTRUDE": {
+          "description": "Extrudes, if the extruder is hot enough",
+          "gcode": "\n\n{% set client = printer['gcode_macro _CLIENT_VARIABLE']|default({}) %}\n{% set use_fw_retract = (client.use_fw_retract|default(false)|lower == 'true') and (printer.firmware_retraction is defined) %}\n{% set length = params.LENGTH|default(client.unretract)|default(1.0)|float %}\n{% set speed = params.SPEED|default(client.speed_unretract)|default(35) %}\n{% set absolute_extrude = printer.gcode_move.absolute_extrude %}\n\n{% if printer.toolhead.extruder != '' %}\n{% if printer[printer.toolhead.extruder].can_extrude %}\n{% if use_fw_retract %}\n{% if length < 0 %}\nG10\n{% else %}\nG11\n{% endif %}\n{% else %}\nM83\nG1 E{length} F{(speed|float|abs) * 60}\n{% if absolute_extrude %}\nM82\n{% endif %}\n{% endif %}\n{% else %}\nRESPOND TYPE=echo MSG='{\"\\\"%s\\\" not hot enough\" % printer.toolhead.extruder}'\n{% endif %}\n{% endif %}"
+        },
+        "gcode_macro _CLIENT_RETRACT": {
+          "description": "Retracts, if the extruder is hot enough",
+          "gcode": "\n{% set client = printer['gcode_macro _CLIENT_VARIABLE']|default({}) %}\n{% set length = params.LENGTH|default(client.retract)|default(1.0)|float %}\n{% set speed = params.SPEED|default(client.speed_retract)|default(35) %}\n\n_CLIENT_EXTRUDE LENGTH=-{length|float|abs} SPEED={speed|float|abs}"
+        },
+        "gcode_macro _CLIENT_LINEAR_MOVE": {
+          "description": "Linear move with save and restore of the gcode state",
+          "gcode": "\n{% set x_move = \"X\" ~ params.X if params.X is defined else \"\" %}\n{% set y_move = \"Y\" ~ params.Y if params.Y is defined else \"\" %}\n{% set z_move = \"Z\" ~ params.Z if params.Z is defined else \"\" %}\n{% set e_move = \"E\" ~ params.E if params.E is defined else \"\" %}\n{% set rate = \"F\" ~ params.F if params.F is defined else \"\" %}\n{% set ABSOLUTE = params.ABSOLUTE | default(0) | int != 0 %}\n{% set ABSOLUTE_E = params.ABSOLUTE_E | default(0) | int != 0 %}\nSAVE_GCODE_STATE NAME=_client_movement\n{% if x_move or y_move or z_move %}\nG9{ 0 if ABSOLUTE else 1 }\n{% endif %}\n{% if e_move %}\nM8{ 2 if ABSOLUTE_E else 3 }\n{% endif %}\nG1 { x_move } { y_move } { z_move } { e_move } { rate }\nRESTORE_GCODE_STATE NAME=_client_movement"
+        },
+        "mcu": {
+          "serial": "/dev/serial/by-id/usb-Klipper_stm32h723xx_23001F001151313531383332-if00"
+        },
+        "mcu rpi": {
+          "serial": "/tmp/klipper_host_mcu"
+        },
+        "adxl345": {
+          "cs_pin": "rpi:None",
+          "spi_bus": "spidev0.0"
+        },
+        "resonance_tester": {
+          "accel_chip": "adxl345",
+          "probe_points": "0, 0, 20"
+        },
+        "printer": {
+          "kinematics": "rotary_delta",
+          "max_velocity": "400",
+          "max_accel": "4000",
+          "minimum_cruise_ratio": "0",
+          "max_z_velocity": "400",
+          "minimum_z_position": "-5",
+          "square_corner_velocity": "8",
+          "shoulder_radius": "120.000000",
+          "shoulder_height": "469.509443"
+        },
+        "idle_timeout": {
+          "timeout": "1800"
+        },
+        "gcode_arcs": {
+          "resolution": "1.0"
+        },
+        "exclude_object": {},
+        "save_variables": {
+          "filename": "~/printer_data/variables.cfg"
+        },
+        "temperature_sensor mcu_octopus": {
+          "sensor_type": "temperature_mcu",
+          "sensor_mcu": "mcu",
+          "max_temp": "100"
+        },
+        "temperature_sensor raspberry_pi": {
+          "sensor_type": "temperature_host",
+          "max_temp": "80"
+        },
+        "bltouch": {
+          "sensor_pin": "^PB7",
+          "control_pin": "PB6",
+          "x_offset": "17",
+          "y_offset": "10",
+          "speed": "3",
+          "lift_speed": "15",
+          "samples": "5",
+          "sample_retract_dist": "3.0",
+          "pin_move_time": "0.800",
+          "samples_result": "median",
+          "samples_tolerance": "0.10",
+          "samples_tolerance_retries": "5",
+          "stow_on_each_sample": "True",
+          "probe_with_touch_mode": "True",
+          "pin_up_touch_mode_reports_triggered": "True",
+          "pin_up_reports_not_triggered": "True",
+          "z_offset": "3.036"
+        },
+        "bed_mesh": {
+          "speed": "50",
+          "horizontal_move_z": "10",
+          "mesh_radius": "80",
+          "mesh_origin": "0,0",
+          "round_probe_count": "7",
+          "algorithm": "bicubic"
+        },
+        "heater_bed": {
+          "heater_pin": "PA1",
+          "sensor_type": "Generic 3950",
+          "sensor_pin": "PF3",
+          "min_temp": "0",
+          "max_temp": "130",
+          "smooth_time": "1.0",
+          "control": "pid",
+          "pid_kp": "65.009",
+          "pid_ki": "0.821",
+          "pid_kd": "1287.173"
+        },
+        "verify_heater heater_bed": {
+          "max_error": "120",
+          "check_gain_time": "60",
+          "hysteresis": "5",
+          "heating_gain": "2"
+        },
+        "verify_heater extruder": {
+          "max_error": "100",
+          "check_gain_time": "20",
+          "hysteresis": "3",
+          "heating_gain": "2"
+        },
+        "extruder": {
+          "step_pin": "PC13",
+          "dir_pin": "!PF0",
+          "enable_pin": "!PF1",
+          "microsteps": "32",
+          "full_steps_per_rotation": "200",
+          "rotation_distance": "32.372",
+          "nozzle_diameter": "0.400",
+          "filament_diameter": "1.750",
+          "pressure_advance": "0",
+          "pressure_advance_smooth_time": "0.08",
+          "heater_pin": "PA0",
+          "sensor_pin": "PF4",
+          "sensor_type": "Generic 3950",
+          "min_temp": "0",
+          "max_temp": "290",
+          "min_extrude_temp": "170",
+          "max_extrude_cross_section": "0.64",
+          "max_extrude_only_distance": "1100",
+          "control": "pid",
+          "pid_kp": "28.348",
+          "pid_ki": "1.615",
+          "pid_kd": "124.375"
+        },
+        "heater_fan hotend_fan": {
+          "pin": "PA8",
+          "heater": "extruder",
+          "heater_temp": "50.0",
+          "fan_speed": "1.0",
+          "kick_start_time": "0.5"
+        },
+        "fan": {
+          "pin": "PE5",
+          "kick_start_time": "0.5",
+          "off_below": "0.10",
+          "cycle_time": "0.010"
+        },
+        "firmware_retraction": {
+          "retract_length": "4.0",
+          "retract_speed": "35",
+          "unretract_extra_length": "0",
+          "unretract_speed": "35"
+        },
+        "stepper_a": {
+          "step_pin": "PF13",
+          "dir_pin": "!PF12",
+          "enable_pin": "!PF14",
+          "microsteps": "32",
+          "full_steps_per_rotation": "200",
+          "gear_ratio": "120:20",
+          "endstop_pin": "^PG6",
+          "homing_speed": "15",
+          "second_homing_speed": "3",
+          "homing_retract_dist": "8",
+          "homing_retract_speed": "15",
+          "upper_arm_length": "230",
+          "lower_arm_length": "330",
+          "angle": "210.000000",
+          "position_endstop": "236.051043"
+        },
+        "stepper_b": {
+          "step_pin": "PG0",
+          "dir_pin": "PG1",
+          "enable_pin": "!PF15",
+          "microsteps": "32",
+          "full_steps_per_rotation": "200",
+          "gear_ratio": "120:20",
+          "endstop_pin": "^PG9",
+          "homing_speed": "15",
+          "second_homing_speed": "3",
+          "homing_retract_dist": "8",
+          "homing_retract_speed": "15",
+          "upper_arm_length": "230",
+          "lower_arm_length": "330",
+          "angle": "330.000000",
+          "position_endstop": "243.307289"
+        },
+        "stepper_c": {
+          "step_pin": "PE6",
+          "dir_pin": "PA14",
+          "enable_pin": "!PE0",
+          "microsteps": "32",
+          "full_steps_per_rotation": "200",
+          "gear_ratio": "120:20",
+          "endstop_pin": "^PG10",
+          "homing_speed": "15",
+          "second_homing_speed": "3",
+          "homing_retract_dist": "8",
+          "homing_retract_speed": "15",
+          "upper_arm_length": "230",
+          "lower_arm_length": "330",
+          "angle": "90.000000",
+          "position_endstop": "240.683154"
+        },
+        "delta_calibrate": {
+          "radius": "80",
+          "speed": "20",
+          "horizontal_move_z": "20",
+          "height0": "3.221",
+          "height0_pos": "3580.000,3751.000,3570.000",
+          "height1": "3.221",
+          "height1_pos": "4575.000,4746.000,2284.000",
+          "height2": "3.221",
+          "height2_pos": "3119.000,5279.000,3109.000",
+          "height3": "3.221",
+          "height3_pos": "2394.000,4593.000,4413.000",
+          "height4": "3.221",
+          "height4_pos": "3157.000,3328.000,4704.000",
+          "height5": "3.221",
+          "height5_pos": "4283.000,2674.000,4273.000",
+          "height6": "3.221",
+          "height6_pos": "4896.000,3294.000,3113.000"
+        },
+        "tmc2209 stepper_a": {
+          "uart_pin": "PC4",
+          "run_current": "0.900",
+          "stealthchop_threshold": "60"
+        },
+        "tmc2209 stepper_b": {
+          "uart_pin": "PD11",
+          "run_current": "0.900",
+          "stealthchop_threshold": "60"
+        },
+        "tmc2209 stepper_c": {
+          "uart_pin": "PD3",
+          "run_current": "0.900",
+          "stealthchop_threshold": "60"
+        },
+        "tmc2209 extruder": {
+          "uart_pin": "PE4",
+          "run_current": "1.000",
+          "stealthchop_threshold": "0"
+        },
+        "input_shaper": {
+          "shaper_type_x": "zv",
+          "shaper_freq_x": "21.0",
+          "shaper_type_y": "zv",
+          "shaper_freq_y": "21.0"
+        },
+        "display": {
+          "lcd_type": "uc1701",
+          "cs_pin": "PE9",
+          "a0_pin": "PE10",
+          "rst_pin": "PE12",
+          "encoder_pins": "^PB2, ^PB1",
+          "click_pin": "^!PE7",
+          "contrast": "63",
+          "spi_software_miso_pin": "PA6",
+          "spi_software_mosi_pin": "PA7",
+          "spi_software_sclk_pin": "PA5"
+        },
+        "output_pin beeper": {
+          "pin": "PE8"
+        },
+        "neopixel fysetc_mini12864": {
+          "pin": "PE13",
+          "chain_count": "3",
+          "color_order": "RGB",
+          "initial_red": "0.4",
+          "initial_green": "0.4",
+          "initial_blue": "0.4"
+        },
+        "force_move": {
+          "enable_force_move": "True"
+        },
+        "gcode_macro G28": {
+          "rename_existing": "G28.1",
+          "description": "Standard homing",
+          "gcode": "\nG28.1"
+        },
+        "gcode_macro SAFE_HOME": {
+          "description": "Alias pentru G28",
+          "gcode": "\nG28.1\nRESPOND TYPE=command MSG=\"SAFE_HOME complet\""
+        },
+        "gcode_macro PRINTER_STATE": {
+          "description": "Holder variabile filament curent (read-only)",
+          "variable_filament_type": "\"UNKNOWN\"",
+          "variable_filament_temp": "0",
+          "variable_filament_bed": "0",
+          "variable_filament_pa": "0.0",
+          "variable_print_mode": "\"IDLE\"",
+          "gcode": ""
+        },
+        "gcode_macro _PAUSE_STATE": {
+          "description": "Variable holder pentru pause/resume context",
+          "variable_filament_changed": "0",
+          "gcode": ""
+        },
+        "gcode_macro START_PRINT": {
+          "description": "Start print universal - valori 100% din slicer",
+          "gcode": "\n{% set BED_TEMP = params.BED_TEMP|float %}\n{% set EXTRUDER_TEMP = params.EXTRUDER_TEMP|float %}\n{% set PA = params.PA|default(-1)|float %}\n{% set FILAMENT = params.FILAMENT|default(\"UNKNOWN\")|string|upper %}\n{% set PRE_HEAT = 150 %}\n\n\nSAVE_VARIABLE VARIABLE=last_filament VALUE='\"{FILAMENT}\"'\nSAVE_VARIABLE VARIABLE=last_extruder_temp VALUE={EXTRUDER_TEMP}\nSAVE_VARIABLE VARIABLE=last_bed_temp VALUE={BED_TEMP}\n\n\nM140 S{BED_TEMP}\nM104 S{PRE_HEAT}\n\n\nG28\nG90\nG1 Z180 F600\nM83\n\n\nM190 S{BED_TEMP}\nBED_MESH_PROFILE LOAD=default\n\n\nM109 S{EXTRUDER_TEMP}\n\n\n{% if PA >= 0 %}\nSET_PRESSURE_ADVANCE ADVANCE={PA}\n{% endif %}\n\n\nG92 E0\nG1 X0 Y-90 Z5 F6000\nG1 Z0.3 F600\nG1 E2 F180\nG92 E0\nG1 X-50 Y-90 Z0.3 E3 F1200\nG1 X-50 Y-88 F3000\nG1 X0 Y-88 Z0.3 E3 F1200\nG1 E-0.3 F2400\nG1 Z0.5 F600\nG1 X20 Y-88 F8000\nG1 Z5 F1000\nG1 X0 Y0 F6000\nG1 Z0.3 F600\nG92 E0\nM82\n\n\nSET_GCODE_VARIABLE MACRO=PRINTER_STATE VARIABLE=filament_type VALUE='\"{FILAMENT}\"'\nSET_GCODE_VARIABLE MACRO=PRINTER_STATE VARIABLE=filament_temp VALUE={EXTRUDER_TEMP}\nSET_GCODE_VARIABLE MACRO=PRINTER_STATE VARIABLE=filament_bed VALUE={BED_TEMP}\n{% if PA >= 0 %}\nSET_GCODE_VARIABLE MACRO=PRINTER_STATE VARIABLE=filament_pa VALUE={PA}\n{% endif %}\nSET_GCODE_VARIABLE MACRO=PRINTER_STATE VARIABLE=print_mode VALUE='\"PRINTING\"'"
+        },
+        "gcode_macro END_PRINT": {
+          "description": "Sfarsit print sigur - park la home, motoare ON",
+          "gcode": "\n{% set current_z = printer.toolhead.position.z %}\n\n\nM104 S0\nM140 S0\nM107\n\n\nG91\nG1 E-3 F1800\nG90\n\n\n{% if current_z < 180 %}\nG91\nG1 Z20 F1500\nG90\n{% endif %}\n\n\nG1 X0 Y0 F4000\n\n\nG28\n\n\n\nSET_GCODE_VARIABLE MACRO=PRINTER_STATE VARIABLE=print_mode VALUE='\"IDLE\"'\nRESPOND TYPE=command MSG=\"Print complet. Cap parcat la home.\""
+        },
+        "gcode_macro M600": {
+          "description": "Schimb filament cu tranzitie temp + air purge",
+          "gcode": "\n{% set X = params.X|default(0)|float %}\n{% set Y = params.Y|default(-80)|float %}\n{% set RETRACT = params.RETRACT|default(800)|float %}\n{% set current_z = printer.toolhead.position.z %}\n\n\n{% set old_filament = printer.save_variables.variables.last_filament|default(\"PLA\") %}\n\n\n{% set new_raw = params.FILAMENT|default(old_filament) %}\n{% set new_filament = (new_raw if new_raw|string != \"\" else old_filament)|string|upper %}\n\n\n{% set old_temp = 215 %}\n{% if old_filament == \"PETG\" %}{% set old_temp = 240 %}\n{% elif old_filament == \"ABS\" or old_filament == \"ASA\" %}{% set old_temp = 245 %}\n{% elif old_filament == \"TPU\" or old_filament == \"FLEX\" %}{% set old_temp = 230 %}\n{% endif %}\n\n{% set new_temp = 215 %}\n{% if new_filament == \"PETG\" %}{% set new_temp = 240 %}\n{% elif new_filament == \"ABS\" or new_filament == \"ASA\" %}{% set new_temp = 245 %}\n{% elif new_filament == \"TPU\" or new_filament == \"FLEX\" %}{% set new_temp = 230 %}\n{% endif %}\n\n\nSET_GCODE_VARIABLE MACRO=_PAUSE_STATE VARIABLE=filament_changed VALUE=1\n\nPAUSE\n\n\nM109 S{old_temp}\n\n\nG91\nG1 E-2 F2700\nG90\n\n\n{% if current_z > 100 %}\nG1 Z80 F1200\n{% else %}\nG91\nG1 Z20 F600\nG90\n{% endif %}\n\n\nG1 X{X} Y{Y} F6000\n\n\nG91\nG1 E-{RETRACT} F600\nG90\n\n\nM104 S{new_temp}\n\n\nSAVE_VARIABLE VARIABLE=last_filament VALUE='\"{new_filament}\"'\nSAVE_VARIABLE VARIABLE=last_extruder_temp VALUE={new_temp}\n\n{% if old_filament != new_filament %}\nRESPOND TYPE=command MSG=\"Schimba din {old_filament} ({old_temp}C) in {new_filament} ({new_temp}C). Apasa RESUME cand e gata.\"\n{% else %}\nRESPOND TYPE=command MSG=\"Schimba filament {new_filament}. Apasa RESUME cand e gata.\"\n{% endif %}"
+        },
+        "gcode_macro CHANGE_FILAMENT": {
+          "description": "Alias pentru M600 - suporta CHANGE_FILAMENT FILAMENT=PETG RETRACT=600",
+          "gcode": "\n{% set f = params.FILAMENT|default(\"\")|string %}\n{% set r = params.RETRACT|default(800)|float %}\n{% if f != \"\" %}\nM600 FILAMENT={f} RETRACT={r}\n{% else %}\nM600 RETRACT={r}\n{% endif %}"
+        },
+        "gcode_macro LOAD_FILAMENT": {
+          "description": "Incarca filament (default 800mm Bowden + 50mm purge)",
+          "gcode": "\n{% set LOAD = params.LOAD|default(800)|float %}\n{% set TEMP = params.TEMP|default(215)|float %}\n\nM109 S{TEMP}\nM83\nG92 E0\nG1 E{LOAD} F800\nG1 E50 F100\nG4 P2000\nG1 E-3 F2400\nM82\nRESPOND TYPE=command MSG=\"Filament incarcat.\""
+        },
+        "gcode_macro UNLOAD_FILAMENT": {
+          "description": "Descarca filament (default retract 800mm)",
+          "gcode": "\n{% set RETRACT = params.RETRACT|default(800)|float %}\n{% set TEMP = params.TEMP|default(215)|float %}\n\nM109 S{TEMP}\nM83\nG92 E0\nG1 E-2 F2700\nG1 E-{RETRACT} F600\nM82\nRESPOND TYPE=command MSG=\"Filament descarcat.\""
+        },
+        "gcode_macro TEST_HOME_FROM_ANYWHERE": {
+          "description": "Test - dezhome fortat apoi G28 (verifica safe homing)",
+          "gcode": "\nM84\nG4 P2000\nRESPOND TYPE=command MSG=\"Muta capul manual oriunde. Apoi apela RESUME_TEST_HOME.\""
+        },
+        "gcode_macro RESUME_TEST_HOME": {
+          "description": "Dupa TEST_HOME_FROM_ANYWHERE - testeaza G28 din pozitia curenta",
+          "gcode": "\nG28\nRESPOND TYPE=command MSG=\"G28 OK din pozitie arbitrara.\""
+        },
+        "gcode_macro PA_UP": {
+          "description": "PA +0.005 (micro tune live)",
+          "gcode": "\n{% set cur = printer.extruder.pressure_advance %}\nSET_PRESSURE_ADVANCE ADVANCE={cur + 0.005}"
+        },
+        "gcode_macro PA_DOWN": {
+          "description": "PA -0.005 (micro tune live)",
+          "gcode": "\n{% set cur = printer.extruder.pressure_advance %}\n{% set new = [cur - 0.005, 0]|max %}\nSET_PRESSURE_ADVANCE ADVANCE={new}"
+        },
+        "gcode_macro FLOW_UP": {
+          "description": "Flow +2% (M221)",
+          "gcode": "\n{% set cur = printer.gcode_move.extrude_factor * 100 %}\nM221 S{(cur + 2)|int}"
+        },
+        "gcode_macro FLOW_DOWN": {
+          "description": "Flow -2% (M221)",
+          "gcode": "\n{% set cur = printer.gcode_move.extrude_factor * 100 %}\nM221 S{[(cur - 2)|int, 50]|max}"
+        },
+        "gcode_macro SPEED_UP": {
+          "description": "Speed +10% (M220)",
+          "gcode": "\n{% set cur = printer.gcode_move.speed_factor * 100 %}\nM220 S{(cur + 10)|int}"
+        },
+        "gcode_macro SPEED_DOWN": {
+          "description": "Speed -10% (M220)",
+          "gcode": "\n{% set cur = printer.gcode_move.speed_factor * 100 %}\nM220 S{[(cur - 10)|int, 30]|max}"
+        },
+        "gcode_macro Z_OFFSET_UP": {
+          "description": "Z-offset +0.01 (babystep up)",
+          "gcode": "\nSET_GCODE_OFFSET Z_ADJUST=0.01 MOVE=1"
+        },
+        "gcode_macro Z_OFFSET_DOWN": {
+          "description": "Z-offset -0.01 (babystep down)",
+          "gcode": "\nSET_GCODE_OFFSET Z_ADJUST=-0.01 MOVE=1"
+        },
+        "gcode_macro VELOCITY_LIMIT_PRESET_SAFE": {
+          "description": "Reset accel/velocity la safe (350/1400)",
+          "gcode": "\nSET_VELOCITY_LIMIT VELOCITY=350 ACCEL=1400 SQUARE_CORNER_VELOCITY=5"
+        },
+        "gcode_macro VELOCITY_LIMIT_PRESET_FAST": {
+          "description": "Accel/velocity push (500/5000)",
+          "gcode": "\nSET_VELOCITY_LIMIT VELOCITY=500 ACCEL=5000 SQUARE_CORNER_VELOCITY=8"
+        },
+        "gcode_macro SHOW_FILAMENT_INFO": {
+          "description": "Afiseaza filament + PA + flow + fan curent (cerere manuala)",
+          "gcode": "\n{% set state = printer[\"gcode_macro PRINTER_STATE\"] %}\n{% set pa = printer.extruder.pressure_advance %}\n{% set flow = (printer.gcode_move.extrude_factor * 100)|int %}\n{% set speed = (printer.gcode_move.speed_factor * 100)|int %}\n{% set fan = (printer.fan.speed * 100)|int %}\n{% set ext_temp = printer.extruder.target %}\n{% set bed_temp = printer.heater_bed.target %}\nRESPOND MSG=\"=== STATUS ===\"\nRESPOND MSG=\"Filament: {state.filament_type}\"\nRESPOND MSG=\"Temp E/B: {ext_temp}C / {bed_temp}C\"\nRESPOND MSG=\"PA: {pa} | Flow: {flow}% | Speed: {speed}% | Fan: {fan}%\"\nRESPOND MSG=\"Mode: {state.print_mode}\""
+        },
+        "gcode_macro TEST_ENDSTOPS": {
+          "description": "Verifica starea endstopurilor optice",
+          "gcode": "\nQUERY_ENDSTOPS"
+        },
+        "gcode_macro TEST_EXTRUDER_BUZZ": {
+          "description": "Test motor extruder",
+          "gcode": "\nSTEPPER_BUZZ STEPPER=extruder"
+        },
+        "gcode_macro TEST_EXTRUDE_PETG": {
+          "description": "Incalzeste la 250C si extrudeaza 30mm PETG",
+          "gcode": "\nM109 S250\nM83\nG92 E0\nG1 E30 F60"
+        },
+        "gcode_macro BLTOUCH_RECOVER": {
+          "description": "Reset BLTouch dupa alarma",
+          "gcode": "\nBLTOUCH_DEBUG COMMAND=reset\nG4 P1000\nBLTOUCH_DEBUG COMMAND=pin_up\nQUERY_PROBE"
+        },
+        "gcode_macro BLTOUCH_PIN_UP": {
+          "gcode": "\nBLTOUCH_DEBUG COMMAND=pin_up"
+        },
+        "gcode_macro BLTOUCH_RESET": {
+          "gcode": "\nBLTOUCH_DEBUG COMMAND=reset"
+        },
+        "gcode_macro Z_UP_5": {
+          "gcode": "\nG91\nG1 Z5 F300\nG90"
+        },
+        "gcode_macro Z_UP_20": {
+          "gcode": "\nG91\nG1 Z20 F400\nG90"
+        },
+        "gcode_macro TEST_AFTER_HOME": {
+          "description": "Test miscare dupa G28",
+          "gcode": "\nG90\nG1 X0 Y0 Z220 F300\nG1 X10 Y0 Z220 F300\nG1 X0 Y10 Z220 F300\nG1 X-10 Y0 Z220 F300\nG1 X0 Y-10 Z220 F300\nG1 X0 Y0 Z220 F300\nG1 X0 Y0 Z200 F200\nG1 X0 Y0 Z220 F200"
+        },
+        "bed_mesh default": {
+          "version": "1",
+          "points": "\n-0.315699, -0.315699, -0.315699, -0.315699, -0.315699, -0.315699, -0.315699\n0.019480, 0.019480, -0.077071, -0.184851, -0.166807, -0.280733, -0.280733\n0.102172, 0.102172, 0.010512, -0.093907, -0.101969, -0.144375, -0.144375\n0.338908, 0.218503, 0.252630, 0.208981, 0.170928, 0.155116, 0.034467\n0.171379, 0.171379, 0.004650, -0.002702, -0.081401, 0.008686, 0.008686\n0.352388, 0.352388, 0.229308, 0.107696, 0.085788, 0.098279, 0.098279\n-0.213170, -0.213170, -0.213170, -0.213170, -0.213170, -0.213170, -0.213170",
+          "x_count": "7",
+          "y_count": "7",
+          "mesh_x_pps": "2",
+          "mesh_y_pps": "2",
+          "algo": "bicubic",
+          "tension": "0.2",
+          "min_x": "-79.98",
+          "max_x": "79.98",
+          "min_y": "-79.98",
+          "max_y": "79.97999999999999"
+        }
+      },
+      "warnings": [],
+      "save_config_pending": false,
+      "save_config_pending_items": {},
+      "settings": {
+        "mcu": {
+          "serial": "/dev/serial/by-id/usb-Klipper_stm32h723xx_23001F001151313531383332-if00",
+          "baud": 250000
+        },
+        "mcu rpi": {
+          "serial": "/tmp/klipper_host_mcu"
+        },
+        "virtual_sdcard": {
+          "path": "~/printer_data/gcodes",
+          "on_error_gcode": "CANCEL_PRINT"
+        },
+        "pause_resume": {
+          "recover_velocity": 50.0
+        },
+        "respond": {
+          "default_type": "echo",
+          "default_prefix": "echo:"
+        },
+        "gcode_macro cancel_print": {
+          "gcode": "\nSET_GCODE_OFFSET Z=0\nM104 S0\nM140 S0\nM107\n\nG91\nG1 E-3 F1800\nG90\n\n{% set current_z = printer.toolhead.position.z %}\n{% if current_z < 180 %}\nG91\nG1 Z20 F1500\nG90\n{% endif %}\n\nG1 X0 Y0 F4000\nG28\n\n\nSET_GCODE_VARIABLE MACRO=_PAUSE_STATE VARIABLE=filament_changed VALUE=0\n\nSET_GCODE_VARIABLE MACRO=PRINTER_STATE VARIABLE=print_mode VALUE='\"IDLE\"'\n\nCANCEL_PRINT_BASE\nRESPOND TYPE=command MSG=\"Print anulat. Cap parcat la home.\"",
+          "rename_existing": "CANCEL_PRINT_BASE",
+          "description": "Cancel sigur - park la home, motoare ON"
+        },
+        "gcode_macro pause": {
+          "gcode": "\nSAVE_GCODE_STATE NAME=M600_state\nPAUSE_BASE\n{% set current_z = printer.toolhead.position.z %}\n\n\n{% if current_z < 180 %}\nG91\nG1 Z20 F1500\nG90\n{% else %}\nG1 Z{[current_z + 5, 200]|min} F1200\n{% endif %}\n\n\nG1 X0 Y-80 F6000\n\n\nM104 S175\n\n\n\nSET_GCODE_VARIABLE MACRO=PRINTER_STATE VARIABLE=print_mode VALUE='\"PAUSED\"'\nRESPOND TYPE=command MSG=\"Pauza activa. Hotend la 175C, bed mentinut.\"",
+          "rename_existing": "PAUSE_BASE",
+          "description": "Pause sigur cu pastrare temp"
+        },
+        "gcode_macro resume": {
+          "gcode": "\n{% set is_change = printer[\"gcode_macro _PAUSE_STATE\"].filament_changed %}\n{% set saved_temp = printer.save_variables.variables.last_extruder_temp|default(215)|float %}\n\n\nM109 S{saved_temp}\n\n{% if is_change == 1 %}\n\n{% set LOAD = params.LOAD|default(800)|float %}\n\nG91\nG1 E{LOAD} F800\nG90\n\n\nG91\nG1 E50 F100\nG4 P2000\nG1 E-3 F2400\nG90\n\n\nG91\nG1 Z2 F600\nG90\nG1 X20 Y-80 F8000\n\n\nSET_GCODE_VARIABLE MACRO=_PAUSE_STATE VARIABLE=filament_changed VALUE=0\nRESPOND TYPE=command MSG=\"Filament nou incarcat, continui print.\"\n{% else %}\n\nG91\nG1 E1 F180\nG90\nRESPOND TYPE=command MSG=\"Resume print.\"\n{% endif %}\n\n\nSET_GCODE_VARIABLE MACRO=PRINTER_STATE VARIABLE=print_mode VALUE='\"PRINTING\"'\n\n\nRESTORE_GCODE_STATE NAME=M600_state MOVE=1 MOVE_SPEED=50\nRESUME_BASE",
+          "rename_existing": "RESUME_BASE",
+          "description": "Resume smart - load filament doar daca era M600",
+          "variable_last_extruder_temp": "{'restore': False, 'temp': 0}",
+          "variable_restore_idle_timeout": "0",
+          "variable_idle_state": "False"
+        },
+        "gcode_macro set_pause_next_layer": {
+          "gcode": "\n{% set pause_next_layer = printer['gcode_macro SET_PRINT_STATS_INFO'].pause_next_layer %}\n{% set ENABLE = params.ENABLE|default(1)|int != 0 %}\n{% set MACRO = params.MACRO|default(pause_next_layer.call, True) %}\nSET_GCODE_VARIABLE MACRO=SET_PRINT_STATS_INFO VARIABLE=pause_next_layer VALUE=\"{{ 'enable': ENABLE, 'call': MACRO }}\"",
+          "description": "Enable a pause if the next layer is reached"
+        },
+        "gcode_macro set_pause_at_layer": {
+          "gcode": "\n{% set pause_at_layer = printer['gcode_macro SET_PRINT_STATS_INFO'].pause_at_layer %}\n{% set ENABLE = params.ENABLE|int != 0 if params.ENABLE is defined\nelse params.LAYER is defined %}\n{% set LAYER = params.LAYER|default(pause_at_layer.layer)|int %}\n{% set MACRO = params.MACRO|default(pause_at_layer.call, True) %}\nSET_GCODE_VARIABLE MACRO=SET_PRINT_STATS_INFO VARIABLE=pause_at_layer VALUE=\"{{ 'enable': ENABLE, 'layer': LAYER, 'call': MACRO }}\"",
+          "description": "Enable/disable a pause if a given layer number is reached"
+        },
+        "gcode_macro set_print_stats_info": {
+          "gcode": "\n{% if pause_next_layer.enable %}\nRESPOND TYPE=echo MSG='{\"%s, forced by pause_next_layer\" % pause_next_layer.call}'\n{pause_next_layer.call}\nSET_PAUSE_NEXT_LAYER ENABLE=0\n{% elif pause_at_layer.enable and params.CURRENT_LAYER is defined and params.CURRENT_LAYER|int == pause_at_layer.layer %}\nRESPOND TYPE=echo MSG='{\"%s, forced by pause_at_layer [%d]\" % (pause_at_layer.call, pause_at_layer.layer)}'\n{pause_at_layer.call}\nSET_PAUSE_AT_LAYER ENABLE=0\n{% endif %}\nSET_PRINT_STATS_INFO_BASE {rawparams}",
+          "rename_existing": "SET_PRINT_STATS_INFO_BASE",
+          "description": "Overwrite, to get pause_next_layer and pause_at_layer feature",
+          "variable_pause_next_layer": "{ 'enable': False, 'call': \"PAUSE\" }",
+          "variable_pause_at_layer": "{ 'enable': False, 'layer': 0, 'call': \"PAUSE\" }"
+        },
+        "gcode_macro _toolhead_park_pause_cancel": {
+          "gcode": "\n\n{% set client = printer['gcode_macro _CLIENT_VARIABLE']|default({}) %}\n{% set velocity = printer.configfile.settings.pause_resume.recover_velocity %}\n{% set use_custom     = client.use_custom_pos|default(false)|lower == 'true' %}\n{% set custom_park_x  = client.custom_park_x|default(0.0) %}\n{% set custom_park_y  = client.custom_park_y|default(0.0) %}\n{% set park_dz        = client.custom_park_dz|default(2.0)|abs %}\n{% set sp_hop         = client.speed_hop|default(15) * 60 %}\n{% set sp_move        = client.speed_move|default(velocity) * 60 %}\n\n{% set origin    = printer.gcode_move.homing_origin %}\n{% set act       = printer.gcode_move.gcode_position %}\n{% set max       = printer.toolhead.axis_maximum %}\n{% set cone      = printer.toolhead.cone_start_z|default(max.z) %}\n{% set round_bed = True if printer.configfile.settings.printer.kinematics is in ['delta','polar','rotary_delta','winch']\nelse False %}\n\n{% set z_min = params.Z_MIN|default(0)|float %}\n{% set z_park = [[(act.z + park_dz), z_min]|max, (max.z - origin.z)]|min %}\n{% set x_park = params.X       if params.X is defined\nelse custom_park_x  if use_custom\nelse 0.0            if round_bed\nelse (max.x - 5.0) %}\n{% set y_park = params.Y       if params.Y is defined\nelse custom_park_y  if use_custom\nelse (max.y - 5.0)  if round_bed and z_park < cone\nelse 0.0            if round_bed\nelse (max.y - 5.0) %}\n\n_CLIENT_RETRACT\n{% if \"xyz\" in printer.toolhead.homed_axes %}\nG90\nG1 Z{z_park} F{sp_hop}\nG1 X{x_park} Y{y_park} F{sp_move}\n{% if not printer.gcode_move.absolute_coordinates %} G91 {% endif %}\n{% else %}\nRESPOND TYPE=echo MSG='Printer not homed'\n{% endif %}",
+          "description": "Helper: park toolhead used in PAUSE and CANCEL_PRINT"
+        },
+        "gcode_macro _client_extrude": {
+          "gcode": "\n\n{% set client = printer['gcode_macro _CLIENT_VARIABLE']|default({}) %}\n{% set use_fw_retract = (client.use_fw_retract|default(false)|lower == 'true') and (printer.firmware_retraction is defined) %}\n{% set length = params.LENGTH|default(client.unretract)|default(1.0)|float %}\n{% set speed = params.SPEED|default(client.speed_unretract)|default(35) %}\n{% set absolute_extrude = printer.gcode_move.absolute_extrude %}\n\n{% if printer.toolhead.extruder != '' %}\n{% if printer[printer.toolhead.extruder].can_extrude %}\n{% if use_fw_retract %}\n{% if length < 0 %}\nG10\n{% else %}\nG11\n{% endif %}\n{% else %}\nM83\nG1 E{length} F{(speed|float|abs) * 60}\n{% if absolute_extrude %}\nM82\n{% endif %}\n{% endif %}\n{% else %}\nRESPOND TYPE=echo MSG='{\"\\\"%s\\\" not hot enough\" % printer.toolhead.extruder}'\n{% endif %}\n{% endif %}",
+          "description": "Extrudes, if the extruder is hot enough"
+        },
+        "gcode_macro _client_retract": {
+          "gcode": "\n{% set client = printer['gcode_macro _CLIENT_VARIABLE']|default({}) %}\n{% set length = params.LENGTH|default(client.retract)|default(1.0)|float %}\n{% set speed = params.SPEED|default(client.speed_retract)|default(35) %}\n\n_CLIENT_EXTRUDE LENGTH=-{length|float|abs} SPEED={speed|float|abs}",
+          "description": "Retracts, if the extruder is hot enough"
+        },
+        "gcode_macro _client_linear_move": {
+          "gcode": "\n{% set x_move = \"X\" ~ params.X if params.X is defined else \"\" %}\n{% set y_move = \"Y\" ~ params.Y if params.Y is defined else \"\" %}\n{% set z_move = \"Z\" ~ params.Z if params.Z is defined else \"\" %}\n{% set e_move = \"E\" ~ params.E if params.E is defined else \"\" %}\n{% set rate = \"F\" ~ params.F if params.F is defined else \"\" %}\n{% set ABSOLUTE = params.ABSOLUTE | default(0) | int != 0 %}\n{% set ABSOLUTE_E = params.ABSOLUTE_E | default(0) | int != 0 %}\nSAVE_GCODE_STATE NAME=_client_movement\n{% if x_move or y_move or z_move %}\nG9{ 0 if ABSOLUTE else 1 }\n{% endif %}\n{% if e_move %}\nM8{ 2 if ABSOLUTE_E else 3 }\n{% endif %}\nG1 { x_move } { y_move } { z_move } { e_move } { rate }\nRESTORE_GCODE_STATE NAME=_client_movement",
+          "description": "Linear move with save and restore of the gcode state"
+        },
+        "adxl345": {
+          "axes_map": [
+            "x",
+            "y",
+            "z"
+          ],
+          "rate": 3200,
+          "cs_pin": "rpi:None",
+          "spi_speed": 5000000,
+          "spi_bus": "spidev0.0"
+        },
+        "resonance_tester": {
+          "move_speed": 50.0,
+          "min_freq": 5.0,
+          "max_freq": 135.0,
+          "max_freq_z": 100.0,
+          "accel_per_hz": 60.0,
+          "accel_per_hz_z": 15.0,
+          "hz_per_sec": 1.0,
+          "sweeping_accel": 400.0,
+          "sweeping_accel_z": 50.0,
+          "sweeping_period": 1.2,
+          "accel_chip": "adxl345",
+          "accel_chip_z": "",
+          "probe_points": [
+            [
+              0.0,
+              0.0,
+              20.0
+            ]
+          ]
+        },
+        "idle_timeout": {
+          "timeout": 1800.0,
+          "gcode": "\n{% if 'heaters' in printer %}\n   TURN_OFF_HEATERS\n{% endif %}\nM84\n"
+        },
+        "gcode_arcs": {
+          "resolution": 1.0
+        },
+        "save_variables": {
+          "filename": "~/printer_data/variables.cfg"
+        },
+        "temperature_sensor mcu_octopus": {
+          "sensor_type": "temperature_mcu",
+          "sensor_mcu": "mcu",
+          "min_temp": -273.15,
+          "max_temp": 100.0
+        },
+        "temperature_sensor raspberry_pi": {
+          "sensor_type": "temperature_host",
+          "sensor_path": "/sys/class/thermal/thermal_zone0/temp",
+          "min_temp": -273.15,
+          "max_temp": 80.0
+        },
+        "bltouch": {
+          "x_offset": 17.0,
+          "y_offset": 10.0,
+          "z_offset": 3.036,
+          "speed": 3.0,
+          "lift_speed": 15.0,
+          "samples": 5,
+          "sample_retract_dist": 3.0,
+          "samples_result": "median",
+          "samples_tolerance": 0.1,
+          "samples_tolerance_retries": 5,
+          "stow_on_each_sample": true,
+          "probe_with_touch_mode": true,
+          "control_pin": "PB6",
+          "sensor_pin": "^PB7",
+          "pin_up_reports_not_triggered": true,
+          "pin_up_touch_mode_reports_triggered": true,
+          "pin_move_time": 0.8
+        },
+        "bed_mesh": {
+          "adaptive_margin": 0.0,
+          "mesh_radius": 80.0,
+          "mesh_origin": [
+            0.0,
+            0.0
+          ],
+          "round_probe_count": 7,
+          "mesh_pps": [
+            2,
+            2
+          ],
+          "algorithm": "bicubic",
+          "bicubic_tension": 0.2,
+          "scan_overshoot": 0,
+          "horizontal_move_z": 10.0,
+          "speed": 50.0,
+          "fade_start": 1.0,
+          "fade_end": 0.0,
+          "split_delta_z": 0.025,
+          "move_check_distance": 5.0
+        },
+        "bed_mesh default": {
+          "version": 1,
+          "points": [
+            [
+              -0.315699,
+              -0.315699,
+              -0.315699,
+              -0.315699,
+              -0.315699,
+              -0.315699,
+              -0.315699
+            ],
+            [
+              0.01948,
+              0.01948,
+              -0.077071,
+              -0.184851,
+              -0.166807,
+              -0.280733,
+              -0.280733
+            ],
+            [
+              0.102172,
+              0.102172,
+              0.010512,
+              -0.093907,
+              -0.101969,
+              -0.144375,
+              -0.144375
+            ],
+            [
+              0.338908,
+              0.218503,
+              0.25263,
+              0.208981,
+              0.170928,
+              0.155116,
+              0.034467
+            ],
+            [
+              0.171379,
+              0.171379,
+              0.00465,
+              -0.002702,
+              -0.081401,
+              0.008686,
+              0.008686
+            ],
+            [
+              0.352388,
+              0.352388,
+              0.229308,
+              0.107696,
+              0.085788,
+              0.098279,
+              0.098279
+            ],
+            [
+              -0.21317,
+              -0.21317,
+              -0.21317,
+              -0.21317,
+              -0.21317,
+              -0.21317,
+              -0.21317
+            ]
+          ],
+          "min_x": -79.98,
+          "max_x": 79.98,
+          "min_y": -79.98,
+          "max_y": 79.97999999999999,
+          "x_count": 7,
+          "y_count": 7,
+          "mesh_x_pps": 2,
+          "mesh_y_pps": 2,
+          "algo": "bicubic",
+          "tension": 0.2
+        },
+        "heater_bed": {
+          "sensor_type": "Generic 3950",
+          "pullup_resistor": 4700.0,
+          "inline_resistor": 0.0,
+          "sensor_pin": "PF3",
+          "min_temp": 0.0,
+          "max_temp": 130.0,
+          "min_extrude_temp": 170.0,
+          "max_power": 1.0,
+          "smooth_time": 1.0,
+          "control": "pid",
+          "pid_kp": 65.009,
+          "pid_ki": 0.821,
+          "pid_kd": 1287.173,
+          "heater_pin": "PA1",
+          "pwm_cycle_time": 0.1
+        },
+        "verify_heater heater_bed": {
+          "hysteresis": 5.0,
+          "max_error": 120.0,
+          "heating_gain": 2.0,
+          "check_gain_time": 60.0
+        },
+        "verify_heater extruder": {
+          "hysteresis": 3.0,
+          "max_error": 100.0,
+          "heating_gain": 2.0,
+          "check_gain_time": 20.0
+        },
+        "heater_fan hotend_fan": {
+          "heater": [
+            "extruder"
+          ],
+          "heater_temp": 50.0,
+          "max_power": 1.0,
+          "kick_start_time": 0.5,
+          "off_below": 0.0,
+          "cycle_time": 0.01,
+          "hardware_pwm": false,
+          "shutdown_speed": 1.0,
+          "pin": "PA8",
+          "fan_speed": 1.0
+        },
+        "fan": {
+          "max_power": 1.0,
+          "kick_start_time": 0.5,
+          "off_below": 0.1,
+          "cycle_time": 0.01,
+          "hardware_pwm": false,
+          "shutdown_speed": 0.0,
+          "pin": "PE5"
+        },
+        "firmware_retraction": {
+          "retract_length": 4.0,
+          "retract_speed": 35.0,
+          "unretract_extra_length": 0.0,
+          "unretract_speed": 35.0
+        },
+        "delta_calibrate": {
+          "radius": 80.0,
+          "horizontal_move_z": 20.0,
+          "speed": 20.0,
+          "height0": 3.221,
+          "height0_pos": [
+            3580.0,
+            3751.0,
+            3570.0
+          ],
+          "height1": 3.221,
+          "height1_pos": [
+            4575.0,
+            4746.0,
+            2284.0
+          ],
+          "height2": 3.221,
+          "height2_pos": [
+            3119.0,
+            5279.0,
+            3109.0
+          ],
+          "height3": 3.221,
+          "height3_pos": [
+            2394.0,
+            4593.0,
+            4413.0
+          ],
+          "height4": 3.221,
+          "height4_pos": [
+            3157.0,
+            3328.0,
+            4704.0
+          ],
+          "height5": 3.221,
+          "height5_pos": [
+            4283.0,
+            2674.0,
+            4273.0
+          ],
+          "height6": 3.221,
+          "height6_pos": [
+            4896.0,
+            3294.0,
+            3113.0
+          ]
+        },
+        "tmc2209 stepper_a": {
+          "uart_pin": "PC4",
+          "uart_address": 0,
+          "run_current": 0.9,
+          "hold_current": 2.0,
+          "sense_resistor": 0.11,
+          "interpolate": true,
+          "stealthchop_threshold": 60.0,
+          "driver_multistep_filt": true,
+          "driver_toff": 3,
+          "driver_hstrt": 5,
+          "driver_hend": 0,
+          "driver_tbl": 2,
+          "driver_semin": 0,
+          "driver_seup": 0,
+          "driver_semax": 0,
+          "driver_sedn": 0,
+          "driver_seimin": 0,
+          "driver_iholddelay": 8,
+          "driver_pwm_ofs": 36,
+          "driver_pwm_grad": 14,
+          "driver_pwm_freq": 1,
+          "driver_pwm_autoscale": true,
+          "driver_pwm_autograd": true,
+          "driver_freewheel": 0,
+          "driver_pwm_reg": 8,
+          "driver_pwm_lim": 12,
+          "driver_tpowerdown": 20,
+          "driver_sgthrs": 0
+        },
+        "stepper_a": {
+          "microsteps": 32,
+          "endstop_pin": "^PG6",
+          "position_endstop": 236.051043,
+          "homing_speed": 15.0,
+          "second_homing_speed": 3.0,
+          "homing_retract_speed": 15.0,
+          "homing_retract_dist": 8.0,
+          "homing_positive_dir": true,
+          "step_pin": "PF13",
+          "dir_pin": "!PF12",
+          "gear_ratio": [
+            [
+              120.0,
+              20.0
+            ]
+          ],
+          "full_steps_per_rotation": 200,
+          "enable_pin": "!PF14",
+          "upper_arm_length": 230.0,
+          "lower_arm_length": 330.0,
+          "angle": 210.0
+        },
+        "tmc2209 stepper_b": {
+          "uart_pin": "PD11",
+          "uart_address": 0,
+          "run_current": 0.9,
+          "hold_current": 2.0,
+          "sense_resistor": 0.11,
+          "interpolate": true,
+          "stealthchop_threshold": 60.0,
+          "driver_multistep_filt": true,
+          "driver_toff": 3,
+          "driver_hstrt": 5,
+          "driver_hend": 0,
+          "driver_tbl": 2,
+          "driver_semin": 0,
+          "driver_seup": 0,
+          "driver_semax": 0,
+          "driver_sedn": 0,
+          "driver_seimin": 0,
+          "driver_iholddelay": 8,
+          "driver_pwm_ofs": 36,
+          "driver_pwm_grad": 14,
+          "driver_pwm_freq": 1,
+          "driver_pwm_autoscale": true,
+          "driver_pwm_autograd": true,
+          "driver_freewheel": 0,
+          "driver_pwm_reg": 8,
+          "driver_pwm_lim": 12,
+          "driver_tpowerdown": 20,
+          "driver_sgthrs": 0
+        },
+        "stepper_b": {
+          "microsteps": 32,
+          "endstop_pin": "^PG9",
+          "position_endstop": 243.307289,
+          "homing_speed": 15.0,
+          "second_homing_speed": 3.0,
+          "homing_retract_speed": 15.0,
+          "homing_retract_dist": 8.0,
+          "homing_positive_dir": true,
+          "step_pin": "PG0",
+          "dir_pin": "PG1",
+          "gear_ratio": [
+            [
+              120.0,
+              20.0
+            ]
+          ],
+          "full_steps_per_rotation": 200,
+          "enable_pin": "!PF15",
+          "upper_arm_length": 230.0,
+          "lower_arm_length": 330.0,
+          "angle": 330.0
+        },
+        "tmc2209 stepper_c": {
+          "uart_pin": "PD3",
+          "uart_address": 0,
+          "run_current": 0.9,
+          "hold_current": 2.0,
+          "sense_resistor": 0.11,
+          "interpolate": true,
+          "stealthchop_threshold": 60.0,
+          "driver_multistep_filt": true,
+          "driver_toff": 3,
+          "driver_hstrt": 5,
+          "driver_hend": 0,
+          "driver_tbl": 2,
+          "driver_semin": 0,
+          "driver_seup": 0,
+          "driver_semax": 0,
+          "driver_sedn": 0,
+          "driver_seimin": 0,
+          "driver_iholddelay": 8,
+          "driver_pwm_ofs": 36,
+          "driver_pwm_grad": 14,
+          "driver_pwm_freq": 1,
+          "driver_pwm_autoscale": true,
+          "driver_pwm_autograd": true,
+          "driver_freewheel": 0,
+          "driver_pwm_reg": 8,
+          "driver_pwm_lim": 12,
+          "driver_tpowerdown": 20,
+          "driver_sgthrs": 0
+        },
+        "stepper_c": {
+          "microsteps": 32,
+          "endstop_pin": "^PG10",
+          "position_endstop": 240.683154,
+          "homing_speed": 15.0,
+          "second_homing_speed": 3.0,
+          "homing_retract_speed": 15.0,
+          "homing_retract_dist": 8.0,
+          "homing_positive_dir": true,
+          "step_pin": "PE6",
+          "dir_pin": "PA14",
+          "gear_ratio": [
+            [
+              120.0,
+              20.0
+            ]
+          ],
+          "full_steps_per_rotation": 200,
+          "enable_pin": "!PE0",
+          "upper_arm_length": 230.0,
+          "lower_arm_length": 330.0,
+          "angle": 90.0
+        },
+        "tmc2209 extruder": {
+          "uart_pin": "PE4",
+          "uart_address": 0,
+          "run_current": 1.0,
+          "hold_current": 2.0,
+          "sense_resistor": 0.11,
+          "interpolate": true,
+          "stealthchop_threshold": 0.0,
+          "driver_multistep_filt": true,
+          "driver_toff": 3,
+          "driver_hstrt": 5,
+          "driver_hend": 0,
+          "driver_tbl": 2,
+          "driver_semin": 0,
+          "driver_seup": 0,
+          "driver_semax": 0,
+          "driver_sedn": 0,
+          "driver_seimin": 0,
+          "driver_iholddelay": 8,
+          "driver_pwm_ofs": 36,
+          "driver_pwm_grad": 14,
+          "driver_pwm_freq": 1,
+          "driver_pwm_autoscale": true,
+          "driver_pwm_autograd": true,
+          "driver_freewheel": 0,
+          "driver_pwm_reg": 8,
+          "driver_pwm_lim": 12,
+          "driver_tpowerdown": 20,
+          "driver_sgthrs": 0
+        },
+        "extruder": {
+          "microsteps": 32,
+          "sensor_type": "Generic 3950",
+          "pullup_resistor": 4700.0,
+          "inline_resistor": 0.0,
+          "sensor_pin": "PF4",
+          "min_temp": 0.0,
+          "max_temp": 290.0,
+          "min_extrude_temp": 170.0,
+          "max_power": 1.0,
+          "smooth_time": 1.0,
+          "control": "pid",
+          "pid_kp": 28.348,
+          "pid_ki": 1.615,
+          "pid_kd": 124.375,
+          "heater_pin": "PA0",
+          "pwm_cycle_time": 0.1,
+          "nozzle_diameter": 0.4,
+          "filament_diameter": 1.75,
+          "max_extrude_cross_section": 0.64,
+          "max_extrude_only_velocity": 106.43243214765772,
+          "max_extrude_only_accel": 1064.324321476577,
+          "max_extrude_only_distance": 1100.0,
+          "instantaneous_corner_velocity": 1.0,
+          "step_pin": "PC13",
+          "pressure_advance": 0.0,
+          "pressure_advance_smooth_time": 0.08,
+          "dir_pin": "!PF0",
+          "rotation_distance": 32.372,
+          "full_steps_per_rotation": 200,
+          "gear_ratio": [],
+          "enable_pin": "!PF1"
+        },
+        "input_shaper": {
+          "shaper_type": "mzv",
+          "shaper_type_x": "zv",
+          "damping_ratio_x": 0.1,
+          "shaper_freq_x": 21.0,
+          "shaper_type_y": "zv",
+          "damping_ratio_y": 0.1,
+          "shaper_freq_y": 21.0,
+          "shaper_type_z": "mzv",
+          "damping_ratio_z": 0.1,
+          "shaper_freq_z": 0.0
+        },
+        "display": {
+          "lcd_type": "uc1701",
+          "cs_pin": "PE9",
+          "spi_speed": 10000000,
+          "spi_software_sclk_pin": "PA5",
+          "spi_software_miso_pin": "PA6",
+          "spi_software_mosi_pin": "PA7",
+          "a0_pin": "PE10",
+          "contrast": 63,
+          "rst_pin": "PE12",
+          "menu_root": "__main",
+          "menu_timeout": 0,
+          "menu_reverse_navigation": false,
+          "encoder_pins": "^PB2, ^PB1",
+          "encoder_steps_per_detent": 4,
+          "encoder_fast_rate": 0.03,
+          "click_pin": "^!PE7",
+          "display_group": "_default_16x4"
+        },
+        "output_pin beeper": {
+          "pwm": false,
+          "pin": "PE8",
+          "value": 0.0,
+          "shutdown_value": 0.0
+        },
+        "neopixel fysetc_mini12864": {
+          "pin": "PE13",
+          "chain_count": 3,
+          "color_order": [
+            "RGB"
+          ],
+          "initial_red": 0.4,
+          "initial_green": 0.4,
+          "initial_blue": 0.4,
+          "initial_white": 0.0
+        },
+        "force_move": {
+          "enable_force_move": true
+        },
+        "gcode_macro g28": {
+          "gcode": "\nG28.1",
+          "rename_existing": "G28.1",
+          "description": "Standard homing"
+        },
+        "gcode_macro safe_home": {
+          "gcode": "\nG28.1\nRESPOND TYPE=command MSG=\"SAFE_HOME complet\"",
+          "description": "Alias pentru G28"
+        },
+        "gcode_macro printer_state": {
+          "gcode": "",
+          "description": "Holder variabile filament curent (read-only)",
+          "variable_filament_type": "\"UNKNOWN\"",
+          "variable_filament_temp": "0",
+          "variable_filament_bed": "0",
+          "variable_filament_pa": "0.0",
+          "variable_print_mode": "\"IDLE\""
+        },
+        "gcode_macro _pause_state": {
+          "gcode": "",
+          "description": "Variable holder pentru pause/resume context",
+          "variable_filament_changed": "0"
+        },
+        "gcode_macro start_print": {
+          "gcode": "\n{% set BED_TEMP = params.BED_TEMP|float %}\n{% set EXTRUDER_TEMP = params.EXTRUDER_TEMP|float %}\n{% set PA = params.PA|default(-1)|float %}\n{% set FILAMENT = params.FILAMENT|default(\"UNKNOWN\")|string|upper %}\n{% set PRE_HEAT = 150 %}\n\n\nSAVE_VARIABLE VARIABLE=last_filament VALUE='\"{FILAMENT}\"'\nSAVE_VARIABLE VARIABLE=last_extruder_temp VALUE={EXTRUDER_TEMP}\nSAVE_VARIABLE VARIABLE=last_bed_temp VALUE={BED_TEMP}\n\n\nM140 S{BED_TEMP}\nM104 S{PRE_HEAT}\n\n\nG28\nG90\nG1 Z180 F600\nM83\n\n\nM190 S{BED_TEMP}\nBED_MESH_PROFILE LOAD=default\n\n\nM109 S{EXTRUDER_TEMP}\n\n\n{% if PA >= 0 %}\nSET_PRESSURE_ADVANCE ADVANCE={PA}\n{% endif %}\n\n\nG92 E0\nG1 X0 Y-90 Z5 F6000\nG1 Z0.3 F600\nG1 E2 F180\nG92 E0\nG1 X-50 Y-90 Z0.3 E3 F1200\nG1 X-50 Y-88 F3000\nG1 X0 Y-88 Z0.3 E3 F1200\nG1 E-0.3 F2400\nG1 Z0.5 F600\nG1 X20 Y-88 F8000\nG1 Z5 F1000\nG1 X0 Y0 F6000\nG1 Z0.3 F600\nG92 E0\nM82\n\n\nSET_GCODE_VARIABLE MACRO=PRINTER_STATE VARIABLE=filament_type VALUE='\"{FILAMENT}\"'\nSET_GCODE_VARIABLE MACRO=PRINTER_STATE VARIABLE=filament_temp VALUE={EXTRUDER_TEMP}\nSET_GCODE_VARIABLE MACRO=PRINTER_STATE VARIABLE=filament_bed VALUE={BED_TEMP}\n{% if PA >= 0 %}\nSET_GCODE_VARIABLE MACRO=PRINTER_STATE VARIABLE=filament_pa VALUE={PA}\n{% endif %}\nSET_GCODE_VARIABLE MACRO=PRINTER_STATE VARIABLE=print_mode VALUE='\"PRINTING\"'",
+          "description": "Start print universal - valori 100% din slicer"
+        },
+        "gcode_macro end_print": {
+          "gcode": "\n{% set current_z = printer.toolhead.position.z %}\n\n\nM104 S0\nM140 S0\nM107\n\n\nG91\nG1 E-3 F1800\nG90\n\n\n{% if current_z < 180 %}\nG91\nG1 Z20 F1500\nG90\n{% endif %}\n\n\nG1 X0 Y0 F4000\n\n\nG28\n\n\n\nSET_GCODE_VARIABLE MACRO=PRINTER_STATE VARIABLE=print_mode VALUE='\"IDLE\"'\nRESPOND TYPE=command MSG=\"Print complet. Cap parcat la home.\"",
+          "description": "Sfarsit print sigur - park la home, motoare ON"
+        },
+        "gcode_macro m600": {
+          "gcode": "\n{% set X = params.X|default(0)|float %}\n{% set Y = params.Y|default(-80)|float %}\n{% set RETRACT = params.RETRACT|default(800)|float %}\n{% set current_z = printer.toolhead.position.z %}\n\n\n{% set old_filament = printer.save_variables.variables.last_filament|default(\"PLA\") %}\n\n\n{% set new_raw = params.FILAMENT|default(old_filament) %}\n{% set new_filament = (new_raw if new_raw|string != \"\" else old_filament)|string|upper %}\n\n\n{% set old_temp = 215 %}\n{% if old_filament == \"PETG\" %}{% set old_temp = 240 %}\n{% elif old_filament == \"ABS\" or old_filament == \"ASA\" %}{% set old_temp = 245 %}\n{% elif old_filament == \"TPU\" or old_filament == \"FLEX\" %}{% set old_temp = 230 %}\n{% endif %}\n\n{% set new_temp = 215 %}\n{% if new_filament == \"PETG\" %}{% set new_temp = 240 %}\n{% elif new_filament == \"ABS\" or new_filament == \"ASA\" %}{% set new_temp = 245 %}\n{% elif new_filament == \"TPU\" or new_filament == \"FLEX\" %}{% set new_temp = 230 %}\n{% endif %}\n\n\nSET_GCODE_VARIABLE MACRO=_PAUSE_STATE VARIABLE=filament_changed VALUE=1\n\nPAUSE\n\n\nM109 S{old_temp}\n\n\nG91\nG1 E-2 F2700\nG90\n\n\n{% if current_z > 100 %}\nG1 Z80 F1200\n{% else %}\nG91\nG1 Z20 F600\nG90\n{% endif %}\n\n\nG1 X{X} Y{Y} F6000\n\n\nG91\nG1 E-{RETRACT} F600\nG90\n\n\nM104 S{new_temp}\n\n\nSAVE_VARIABLE VARIABLE=last_filament VALUE='\"{new_filament}\"'\nSAVE_VARIABLE VARIABLE=last_extruder_temp VALUE={new_temp}\n\n{% if old_filament != new_filament %}\nRESPOND TYPE=command MSG=\"Schimba din {old_filament} ({old_temp}C) in {new_filament} ({new_temp}C). Apasa RESUME cand e gata.\"\n{% else %}\nRESPOND TYPE=command MSG=\"Schimba filament {new_filament}. Apasa RESUME cand e gata.\"\n{% endif %}",
+          "description": "Schimb filament cu tranzitie temp + air purge"
+        },
+        "gcode_macro change_filament": {
+          "gcode": "\n{% set f = params.FILAMENT|default(\"\")|string %}\n{% set r = params.RETRACT|default(800)|float %}\n{% if f != \"\" %}\nM600 FILAMENT={f} RETRACT={r}\n{% else %}\nM600 RETRACT={r}\n{% endif %}",
+          "description": "Alias pentru M600 - suporta CHANGE_FILAMENT FILAMENT=PETG RETRACT=600"
+        },
+        "gcode_macro load_filament": {
+          "gcode": "\n{% set LOAD = params.LOAD|default(800)|float %}\n{% set TEMP = params.TEMP|default(215)|float %}\n\nM109 S{TEMP}\nM83\nG92 E0\nG1 E{LOAD} F800\nG1 E50 F100\nG4 P2000\nG1 E-3 F2400\nM82\nRESPOND TYPE=command MSG=\"Filament incarcat.\"",
+          "description": "Incarca filament (default 800mm Bowden + 50mm purge)"
+        },
+        "gcode_macro unload_filament": {
+          "gcode": "\n{% set RETRACT = params.RETRACT|default(800)|float %}\n{% set TEMP = params.TEMP|default(215)|float %}\n\nM109 S{TEMP}\nM83\nG92 E0\nG1 E-2 F2700\nG1 E-{RETRACT} F600\nM82\nRESPOND TYPE=command MSG=\"Filament descarcat.\"",
+          "description": "Descarca filament (default retract 800mm)"
+        },
+        "gcode_macro test_home_from_anywhere": {
+          "gcode": "\nM84\nG4 P2000\nRESPOND TYPE=command MSG=\"Muta capul manual oriunde. Apoi apela RESUME_TEST_HOME.\"",
+          "description": "Test - dezhome fortat apoi G28 (verifica safe homing)"
+        },
+        "gcode_macro resume_test_home": {
+          "gcode": "\nG28\nRESPOND TYPE=command MSG=\"G28 OK din pozitie arbitrara.\"",
+          "description": "Dupa TEST_HOME_FROM_ANYWHERE - testeaza G28 din pozitia curenta"
+        },
+        "gcode_macro pa_up": {
+          "gcode": "\n{% set cur = printer.extruder.pressure_advance %}\nSET_PRESSURE_ADVANCE ADVANCE={cur + 0.005}",
+          "description": "PA +0.005 (micro tune live)"
+        },
+        "gcode_macro pa_down": {
+          "gcode": "\n{% set cur = printer.extruder.pressure_advance %}\n{% set new = [cur - 0.005, 0]|max %}\nSET_PRESSURE_ADVANCE ADVANCE={new}",
+          "description": "PA -0.005 (micro tune live)"
+        },
+        "gcode_macro flow_up": {
+          "gcode": "\n{% set cur = printer.gcode_move.extrude_factor * 100 %}\nM221 S{(cur + 2)|int}",
+          "description": "Flow +2% (M221)"
+        },
+        "gcode_macro flow_down": {
+          "gcode": "\n{% set cur = printer.gcode_move.extrude_factor * 100 %}\nM221 S{[(cur - 2)|int, 50]|max}",
+          "description": "Flow -2% (M221)"
+        },
+        "gcode_macro speed_up": {
+          "gcode": "\n{% set cur = printer.gcode_move.speed_factor * 100 %}\nM220 S{(cur + 10)|int}",
+          "description": "Speed +10% (M220)"
+        },
+        "gcode_macro speed_down": {
+          "gcode": "\n{% set cur = printer.gcode_move.speed_factor * 100 %}\nM220 S{[(cur - 10)|int, 30]|max}",
+          "description": "Speed -10% (M220)"
+        },
+        "gcode_macro z_offset_up": {
+          "gcode": "\nSET_GCODE_OFFSET Z_ADJUST=0.01 MOVE=1",
+          "description": "Z-offset +0.01 (babystep up)"
+        },
+        "gcode_macro z_offset_down": {
+          "gcode": "\nSET_GCODE_OFFSET Z_ADJUST=-0.01 MOVE=1",
+          "description": "Z-offset -0.01 (babystep down)"
+        },
+        "gcode_macro velocity_limit_preset_safe": {
+          "gcode": "\nSET_VELOCITY_LIMIT VELOCITY=350 ACCEL=1400 SQUARE_CORNER_VELOCITY=5",
+          "description": "Reset accel/velocity la safe (350/1400)"
+        },
+        "gcode_macro velocity_limit_preset_fast": {
+          "gcode": "\nSET_VELOCITY_LIMIT VELOCITY=500 ACCEL=5000 SQUARE_CORNER_VELOCITY=8",
+          "description": "Accel/velocity push (500/5000)"
+        },
+        "gcode_macro show_filament_info": {
+          "gcode": "\n{% set state = printer[\"gcode_macro PRINTER_STATE\"] %}\n{% set pa = printer.extruder.pressure_advance %}\n{% set flow = (printer.gcode_move.extrude_factor * 100)|int %}\n{% set speed = (printer.gcode_move.speed_factor * 100)|int %}\n{% set fan = (printer.fan.speed * 100)|int %}\n{% set ext_temp = printer.extruder.target %}\n{% set bed_temp = printer.heater_bed.target %}\nRESPOND MSG=\"=== STATUS ===\"\nRESPOND MSG=\"Filament: {state.filament_type}\"\nRESPOND MSG=\"Temp E/B: {ext_temp}C / {bed_temp}C\"\nRESPOND MSG=\"PA: {pa} | Flow: {flow}% | Speed: {speed}% | Fan: {fan}%\"\nRESPOND MSG=\"Mode: {state.print_mode}\"",
+          "description": "Afiseaza filament + PA + flow + fan curent (cerere manuala)"
+        },
+        "gcode_macro test_endstops": {
+          "gcode": "\nQUERY_ENDSTOPS",
+          "description": "Verifica starea endstopurilor optice"
+        },
+        "gcode_macro test_extruder_buzz": {
+          "gcode": "\nSTEPPER_BUZZ STEPPER=extruder",
+          "description": "Test motor extruder"
+        },
+        "gcode_macro test_extrude_petg": {
+          "gcode": "\nM109 S250\nM83\nG92 E0\nG1 E30 F60",
+          "description": "Incalzeste la 250C si extrudeaza 30mm PETG"
+        },
+        "gcode_macro bltouch_recover": {
+          "gcode": "\nBLTOUCH_DEBUG COMMAND=reset\nG4 P1000\nBLTOUCH_DEBUG COMMAND=pin_up\nQUERY_PROBE",
+          "description": "Reset BLTouch dupa alarma"
+        },
+        "gcode_macro bltouch_pin_up": {
+          "gcode": "\nBLTOUCH_DEBUG COMMAND=pin_up",
+          "description": "G-Code macro"
+        },
+        "gcode_macro bltouch_reset": {
+          "gcode": "\nBLTOUCH_DEBUG COMMAND=reset",
+          "description": "G-Code macro"
+        },
+        "gcode_macro z_up_5": {
+          "gcode": "\nG91\nG1 Z5 F300\nG90",
+          "description": "G-Code macro"
+        },
+        "gcode_macro z_up_20": {
+          "gcode": "\nG91\nG1 Z20 F400\nG90",
+          "description": "G-Code macro"
+        },
+        "gcode_macro test_after_home": {
+          "gcode": "\nG90\nG1 X0 Y0 Z220 F300\nG1 X10 Y0 Z220 F300\nG1 X0 Y10 Z220 F300\nG1 X-10 Y0 Z220 F300\nG1 X0 Y-10 Z220 F300\nG1 X0 Y0 Z220 F300\nG1 X0 Y0 Z200 F200\nG1 X0 Y0 Z220 F200",
+          "description": "Test miscare dupa G28"
+        },
+        "printer": {
+          "max_velocity": 400.0,
+          "max_accel": 4000.0,
+          "minimum_cruise_ratio": 0.0,
+          "square_corner_velocity": 8.0,
+          "kinematics": "rotary_delta",
+          "max_z_velocity": 400.0,
+          "shoulder_radius": 120.0,
+          "shoulder_height": 469.509443,
+          "minimum_z_position": -5.0
+        }
+      }
+    },
+    "webhooks": {
+      "state": "ready",
+      "state_message": "Printer is ready"
+    },
+    "mcu": {
+      "mcu_version": "v0.13.0-627-g6b4aeb4c4",
+      "mcu_build_versions": "gcc: (15:12.2.rel1-1) 12.2.1 20221205 binutils: (2.40-2+18+b1) 2.40",
+      "mcu_constants": {
+        "ADC_MAX": 4095,
+        "BUS_PINS_i2c1_PB6_PB7": "PB6,PB7",
+        "BUS_PINS_i2c1_PB8_PB9": "PB8,PB9",
+        "BUS_PINS_i2c2_PB10_PB11": "PB10,PB11",
+        "BUS_PINS_i2c3_PA8_PC9": "PA8,PC9",
+        "BUS_PINS_spi1": "PA6,PA7,PA5",
+        "BUS_PINS_spi1a": "PB4,PB5,PB3",
+        "BUS_PINS_spi2": "PB14,PB15,PB13",
+        "BUS_PINS_spi2a": "PC2,PC3,PB10",
+        "BUS_PINS_spi2b": "PI2,PI3,PI1",
+        "BUS_PINS_spi3a": "PC11,PC12,PC10",
+        "BUS_PINS_spi4": "PE13,PE14,PE12",
+        "BUS_PINS_spi5": "PF8,PF9,PF7",
+        "BUS_PINS_spi5a": "PH7,PF11,PH6",
+        "BUS_PINS_spi6": "PG12,PG14,PG13",
+        "CLOCK_FREQ": 520000000,
+        "MCU": "stm32h723xx",
+        "PWM_MAX": 32768,
+        "RESERVE_PINS_USB": "PA11,PA12",
+        "RESERVE_PINS_crystal": "PH0,PH1",
+        "STATS_SUMSQ_BASE": 256,
+        "STEPPER_STEP_BOTH_EDGE": 1
+      },
+      "last_stats": {
+        "mcu_awake": 0.001,
+        "mcu_task_avg": 2e-06,
+        "mcu_task_stddev": 6e-06,
+        "bytes_write": 123564,
+        "bytes_read": 165518,
+        "bytes_retransmit": 9,
+        "bytes_invalid": 0,
+        "send_seq": 5278,
+        "receive_seq": 5278,
+        "retransmit_seq": 2,
+        "srtt": 0.0,
+        "rttvar": 0.0,
+        "rto": 0.025,
+        "ready_bytes": 27,
+        "upcoming_bytes": 0,
+        "freq": 520023127
+      }
+    },
+    "mcu rpi": {
+      "mcu_version": "v0.13.0-641-g2239041df",
+      "mcu_build_versions": "gcc: (Debian 12.2.0-14+deb12u1) 12.2.0 binutils: (GNU Binutils for Debian) 2.40",
+      "mcu_constants": {
+        "ADC_MAX": 4095,
+        "CLOCK_FREQ": 50000000,
+        "MCU": "linux",
+        "PCA9685_MAX": 4096,
+        "PWM_MAX": 32768,
+        "STATS_SUMSQ_BASE": 256,
+        "STEPPER_STEP_BOTH_EDGE": 1
+      },
+      "last_stats": {
+        "mcu_awake": 0.0,
+        "mcu_task_avg": 7e-06,
+        "mcu_task_stddev": 9e-06,
+        "bytes_write": 3554,
+        "bytes_read": 13451,
+        "bytes_retransmit": 0,
+        "bytes_invalid": 0,
+        "send_seq": 556,
+        "receive_seq": 556,
+        "retransmit_seq": 0,
+        "srtt": 0.0,
+        "rttvar": 0.0,
+        "rto": 0.025,
+        "ready_bytes": 0,
+        "upcoming_bytes": 0,
+        "freq": 49999509,
+        "adj": 49997241
+      }
+    },
+    "tmc2209 stepper_a": {
+      "mcu_phase_offset": 1,
+      "phase_offset_position": 0.3301669485446153,
+      "run_current": 0.887283028315812,
+      "hold_current": 0.887283028315812,
+      "drv_status": {
+        "cs_actual": 28,
+        "stealth": 1
+      },
+      "temperature": null
+    },
+    "tmc2209 stepper_b": {
+      "mcu_phase_offset": 127,
+      "phase_offset_position": 0.8430852230110863,
+      "run_current": 0.887283028315812,
+      "hold_current": 0.887283028315812,
+      "drv_status": {
+        "cs_actual": 28,
+        "stealth": 1
+      },
+      "temperature": null
+    },
+    "tmc2209 stepper_c": {
+      "mcu_phase_offset": 127,
+      "phase_offset_position": -0.46533202906200233,
+      "run_current": 0.887283028315812,
+      "hold_current": 0.887283028315812,
+      "drv_status": {
+        "cs_actual": 28,
+        "stealth": 1
+      },
+      "temperature": null
+    },
+    "tmc2209 extruder": {
+      "mcu_phase_offset": 1,
+      "phase_offset_position": -878.90991625,
+      "run_current": 0.979070927796758,
+      "hold_current": 0.979070927796758,
+      "drv_status": {
+        "cs_actual": 31,
+        "stst": 1
+      },
+      "temperature": null
+    },
+    "temperature_sensor mcu_octopus": {
+      "temperature": 47.37,
+      "measured_min_temp": 46.68,
+      "measured_max_temp": 47.72
+    },
+    "temperature_sensor raspberry_pi": {
+      "temperature": 51.61,
+      "measured_min_temp": 48.69,
+      "measured_max_temp": 53.56
+    }
+  },
+  "row": {
+    "timestamp_iso": "2026-06-18 02:11:55",
+    "unix_time": 1781737915.355,
+    "state": "printing",
+    "filename": "Stanford_Bunny_0.25mm_PETG_Generic Klipper Printer_6h22m.gcode",
+    "progress_percent": 0.0,
+    "print_duration_s": 0.0,
+    "total_duration_s": 1.1994047030002548,
+    "filament_used_mm": 0.0,
+    "message": null,
+    "x_mm": 1.399941061701611,
+    "y_mm": 0.22970977604683185,
+    "z_mm": 232.82392660573856,
+    "e_mm": 4.699999999999999,
+    "live_velocity_mms": 15.0,
+    "live_extruder_velocity_mms": -3.552713678800501e-15,
+    "hotend_temp_c": 138.54,
+    "hotend_target_c": 150.0,
+    "hotend_power": 1.0,
+    "bed_temp_c": 73.08,
+    "bed_target_c": 80.0,
+    "bed_power": 1.0,
+    "fan_percent": 0.0,
+    "idle_state": "Printing"
+  },
+  "current_session": null,
+  "data_dir": "/home/bogdan/printer_data/config/date_licenta_monitor"
+}
